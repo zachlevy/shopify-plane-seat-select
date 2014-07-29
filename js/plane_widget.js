@@ -15,7 +15,7 @@ $(document).ready(function() {
 	};
 	getPlane();
 	setPlane();
-	// on seat select
+	// on seat select, update the dropdown list
 	$(".plane-seat.seat-empty").click(function () {
 		$(".plane-seat").removeClass("seat-selected");
 		$(this).addClass("seat-selected");
